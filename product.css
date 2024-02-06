@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    background-color: #F2EBE4;
+}
+
+.whole{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 120px;
+}
+.img1{
+    height: 365px;
+    width: 250px;
+}
+.image{
+    height: 365px;
+    width: 250px;
+    border-radius: 10px 0 0 10px;
+}
+.pfum{
+    padding-top: 17px;
+    font-size: 10px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: gray;
+}
+.heder{
+    font-weight: bolder;
+    padding-left: 2px;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: 'Fraunces', sans-serif;
+}
+.heder1{
+    width: 160px;
+}
+.sente{
+    height: 365px;
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 30px;
+    border-radius: 0 10px 10px 0;
+}
+.mainp{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: lighter;
+}
+.mainp1{
+    width: 220px;
+}
+.il{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0;
+}
+.price1{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(158, 36%, 37%);
+}
+.il2{
+    margin-left: 20px;
+    position: relative;
+}
+.price2{
+    color:  hsl(228, 12%, 48%);
+    font-size: 12px;
+}
+.line{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+}
+.btn2{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    width: 220px;
+    height: 40px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+.btn{
+    position: relative;
+}
+.iconcart{
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+@media  (max-width:376px) {
+    
+
+    .whole{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 0;
+        position: relative;
+    }
+    .image{
+        display: none;
+    }
+    div .img1{
+        background-image:url('images/image-product-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: 335px  200px;
+        border-radius: 10px 10px 0 0;
+    }
+    .img1{
+        height: 200px;
+        width: 335px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .sente{
+        margin-left: 20px;
+        width: 305px;
+        height: 290px;
+        border-radius: 0 0 10px 10px;
+    }
+    .pfum{
+        padding-top: 7px;
+    }
+    .heder1{
+        width: 220px;
+        height: 40px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .heder{
+        letter-spacing: 1px;
+    }
+    .mainp1{
+        width: 240px;
+    }
+    .mainp{
+        font-size: 12px;
+    }
+    .il{
+        height: 55px;
+    }
+    .btn{
+        margin-top: 0;
+    }
+  
+}
